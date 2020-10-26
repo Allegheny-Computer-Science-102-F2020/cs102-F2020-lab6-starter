@@ -214,15 +214,14 @@ Python program you need to be in the directory called `factorialmaker`.
 
 For this laboratory assignment you are going to design, implement, and test a
 program that, for a specified "container" (which, for this assignment is either
-a tuple a list or, alternatively, a generator function which does not really use
-a container), computes and returns the [Fibonacci
+a tuple or a list, computes and returns the [Fibonacci
 numbers](https://www.mathsisfun.com/numbers/fibonacci-sequence.html) up to a
-specified number. This assignment will required you to combine your knowledge of
-functions, iteration constructs, the tuple discrete structure, and mathematics
-to create an adaptable Python program that you implement in an industry-standard
-fashion. For instance, when you run the completed version of the Python program
-with the command `poetry run python fibonaccicreator --number 10 --container
-generator` it will produce the following output:
+specified number. This assignment will required you to combine your knowledge
+of functions, iteration constructs, the tuple discrete structure, and
+mathematics to create an adaptable Python program that you implement in an
+industry-standard fashion. For instance, when you run the completed version of
+the Python program with the command `poetry run python fibonaccicreator
+--number 10 --container generator` it will produce the following output:
 
 ```
 The chosen type of container is the generator! 🗃
