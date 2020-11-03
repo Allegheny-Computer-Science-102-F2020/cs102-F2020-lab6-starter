@@ -355,7 +355,7 @@ container by following the steps in the [Using Docker](#using-docker) section.
 - The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `a = 1` fragment
 - The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `(a,)` fragment
 - The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `b = 1` fragment
-- The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `fibonacci_generator` fragment
+- The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 0 of the `fibonacci_generator` fragment
 - The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `fibonacci_list` fragment
 - The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `fibonacci_tuple` fragment
 - The fibonacci.py in fibonaccicreator/fibonaccicreator has at least 1 of the `result = ()` fragment
