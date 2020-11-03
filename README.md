@@ -444,7 +444,7 @@ development workstation. Individuals who do not want to install Docker can
 optionally install of the programs mentioned in the [Project
 Requirements](#requirements) section of this document.
 
-## Non-Interactive Docker Commands
+### Non-Interactive Docker Commands
 
 Once you have installed [Docker
 Desktop](https://www.docker.com/products/docker-desktop), with MacOS and Linux
@@ -514,7 +514,7 @@ Here are some additional commands that you may need to run when using Docker:
 * `docker container prune`: remove all stopped docker containers from your workstation
 * `docker rmi $(docker images -q) --force`: remove all docker images from your workstation
 
-## Commands for an Interactive Docker Shell
+### Commands for an Interactive Docker Shell
 
 Since the above `docker run` command uses a Docker images that, by default, runs
 `gradle grade` and then exits the Docker container, you may want to instead run
@@ -560,7 +560,7 @@ Remember, to correctly run any of the commands mentioned in this guide, you must
 be in the main (i.e., "home base") directory for a course assignment where the
 `build.gradle` file is located.
 
-## Upgrading the Docker Container
+### Upgrading the Docker Container
 
 If the course instructor provides a new version of the Docker container called
 `gatoreducator/dockagator` and you want to receive it immediately, you must
@@ -585,7 +585,7 @@ run the `gradle grade` command inside of the Docker container. Specifically, you
 will need to delete directories in `.dockagator` that are normally called
 `gatorgrader`, `virtualenv`, and `virtualenvs`.
 
-### Downloading Project Updates
+## Downloading Project Updates
 
 If GatorGrader's maintainers push updates to this sample assignment and you
 received it through GitHub Classroom and you would like to also receive these
@@ -614,7 +614,7 @@ the [Gradle plugin](https://github.com/GatorEducator/gatorgradle) for
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) will automatically
 download the newest version of GatorGrader.
 
-### Using GitHub Actions
+## Using GitHub Actions
 
 This assignment uses [GitHub Actions](https://github.com/features/actions) to
 automatically run [GatorGrader](https://github.com/GatorEducator/gatorgrader)
@@ -626,7 +626,7 @@ a yellow &#9679; or a green ✔ or a red ❌ in your listing of commits, then
 please ask the instructor to see whether or not GitHub Actions was correctly
 enabled.
 
-### System Requirements
+## System Requirements
 
 This assignment was developed to work with the following software and versions:
 
@@ -641,7 +641,7 @@ This assignment was developed to work with the following software and versions:
   - MDL 0.5.0
   - Python 3.7 or 3.8
 
-### Reporting Problems
+## Reporting Problems
 
 If you have found a problem with this assignment's provided source code or
 documentation, then you can go to the [Computer Science 102 Fall 2020 Planning
@@ -658,7 +658,7 @@ use the appropriate GitHub issue tracker to correctly document, a mistake in any
 aspect of this assignment will receive extra credit towards their grade for the
 course.
 
-### Receiving Assistance
+## Receiving Assistance
 
 If you are having trouble completing any part of this project, then please talk
 with either the course instructor or a student technical leader during the
