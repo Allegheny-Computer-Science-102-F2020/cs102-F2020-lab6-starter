@@ -214,27 +214,43 @@ Python program you need to be in the directory called `factorialmaker`.
 
 For this laboratory assignment you are going to design, implement, and test a
 program that, for a specified "container" (which, for this assignment is either
-a tuple or a list, computes and returns the [Fibonacci
+a tuple or a list), computes and returns the [Fibonacci
 numbers](https://www.mathsisfun.com/numbers/fibonacci-sequence.html) up to a
 specified number. This assignment will required you to combine your knowledge
 of functions, iteration constructs, the tuple discrete structure, and
 mathematics to create an adaptable Python program that you implement in an
 industry-standard fashion. For instance, when you run the completed version of
-the Python program with the command `poetry run python fibonaccicreator
---number 10 --container generator` it will produce the following output:
+the Python program with the command `time poetry run python -m memory_profiler
+fibonaccicreator --number 10000 --container tuple` it will produce the
+following output:
 
 ```
-The chosen type of container is the generator! 🗃
+The chosen type of container is the tuple! 🗃
 
 The program will compute up to the 10000th Fibonacci number! 🔢
+
+Filename: /home/gkapfham/working/teaching/github-classroom/Allegheny-Computer-Science-102-F2020/starters/cs102-F2020-lab6-starter/fibonaccicreator/fibonaccicreator/fibonacci.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+     8     20.3 MiB     20.3 MiB           1   @profile
+     9                                         def fibonacci_tuple(number: int) -> Tuple[int]:
+    10                                             """Compute up to and including the number-th Fibonacci number using a tuple."""
+    11                                             # TODO: Add all of the required source code for this tuple-based function
+    12                                             # create an empty tuple that will ultimately contain the results
+    13     20.4 MiB      0.1 MiB           1       result = ()
+    14     20.4 MiB      0.0 MiB           1       return result
+
 
 So, was this an efficient container for storing the Fibonacci sequence? 🤷
 
 Estimated overall memory according to the operating system:
-   26.87109375 megabytes
+   26.86328125 megabytes
 
 Estimated peak memory according to the operating system:
-   34.015625 megabytes
+   33.86328125 megabytes
+
+poetry run python -m memory_profiler fibonaccicreator --number 10000  tuple  0.35s user 0.06s system 98% cpu 0.407 total
 ```
 
 Please note that this version of the program adds a `--display` function and
