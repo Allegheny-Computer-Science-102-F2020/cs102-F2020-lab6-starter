@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+* [Objectives](#objectives)
 * [Introduction](#introduction)
 * [Continuous Learning](#continuous-learning)
 * [Assignment Reminders](#assignment-reminders)
@@ -20,14 +21,14 @@
 * [Discussion of a Graded Assignment](#discussion-of-a-graded-assignment)
 * [Additional Resources](#additional-resources)
   + [System Commands](#system-commands)
-* [Non-Interactive Docker Commands](#non-interactive-docker-commands)
-* [Commands for an Interactive Docker Shell](#commands-for-an-interactive-docker-shell)
-* [Upgrading the Docker Container](#upgrading-the-docker-container)
-  + [Downloading Project Updates](#downloading-project-updates)
-  + [Using GitHub Actions](#using-github-actions)
-  + [System Requirements](#system-requirements)
-  + [Reporting Problems](#reporting-problems)
-  + [Receiving Assistance](#receiving-assistance)
+  + [Non-Interactive Docker Commands](#non-interactive-docker-commands)
+  + [Commands for an Interactive Docker Shell](#commands-for-an-interactive-docker-shell)
+  + [Upgrading the Docker Container](#upgrading-the-docker-container)
+* [Downloading Project Updates](#downloading-project-updates)
+* [Using GitHub Actions](#using-github-actions)
+* [System Requirements](#system-requirements)
+* [Reporting Problems](#reporting-problems)
+* [Receiving Assistance](#receiving-assistance)
 
 ## Objectives
 
